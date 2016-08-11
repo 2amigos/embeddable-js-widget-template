@@ -1,0 +1,14 @@
+{
+  "name": "embeddable-widget",
+  "version": "1.0.0",
+  "description": "Embeddable widget example",
+  "main": "widget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Ramirez Cobos (2amigos)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
