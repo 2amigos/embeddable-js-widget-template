@@ -9,6 +9,11 @@
   "author": "Antonio Ramirez Cobos (2amigos)",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "requirejs": "^2.3.3"
+  },
+  "dependencies": {
+    "gulp-run": "^1.7.1"
   }
 }
