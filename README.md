@@ -1,10 +1,33 @@
-# Embeddable JS widget 
+# Embeddable JS widget
 
-How to build an embeddable widget with [RequireJS](http://requirejs.org). 
+Build an embeddable widget using [RequireJS](http://requirejs.org) and [Gulp](http://gulpjs.com/).
 
-## How to build the widget 
+## How to build the widget
 
 See the blog post on [2amigos](https://2amigos.us/blog/how-to-create-an-embeddable-javascript-widget)
+
+### Bower dependencies
+
+Considering you have installed globally bower:
+```bash
+# https://github.com/requirejs/almond#almond
+bower install almond
+# https://github.com/requirejs/text
+bower install requirejs-text
+bower install jquery
+```
+
+Considering you have installed only locally bower:
+```bash
+node_modules/bower/bin/bower install jquery
+node_modules/bower/bin/bower install almond
+node_modules/bower/bin/bower install text
+```
+
+Then, if locally, you can run:
+```bash
+node node_modules/gulp/bin/gulp.js build
+```
 
 Credits
 -------
